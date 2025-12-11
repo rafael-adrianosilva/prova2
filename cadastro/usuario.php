@@ -40,21 +40,17 @@ $conn = mysqli_connect($svname, $user, $password, $db);
         left: 0;
         right: 0;
         bottom: 0;
-        background-image: 
-            repeating-linear-gradient(
-                0deg,
+        background-image:
+            repeating-linear-gradient(0deg,
                 transparent,
                 transparent 35px,
                 rgba(139, 105, 20, 0.03) 35px,
-                rgba(139, 105, 20, 0.03) 180px
-            ),
-            repeating-linear-gradient(
-                90deg,
+                rgba(139, 105, 20, 0.03) 180px),
+            repeating-linear-gradient(90deg,
                 transparent,
                 transparent 10px,
                 rgba(255, 255, 255, 0.02) 10px,
-                rgba(255, 255, 255, 0.02) 80px
-            );
+                rgba(255, 255, 255, 0.02) 80px);
         pointer-events: none;
     }
 
@@ -100,7 +96,7 @@ $conn = mysqli_connect($svname, $user, $password, $db);
     .header-content i {
         font-size: 45px;
         color: #8b6914;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     }
 
     .header-content h1 {
@@ -122,15 +118,15 @@ $conn = mysqli_connect($svname, $user, $password, $db);
         font-weight: 700;
         font-family: 'Segoe UI', sans-serif;
         transition: all 0.3s ease;
-        border: 2px solid rgba(255,255,255,0.2);
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
         font-size: 1em;
     }
 
     .back-btn:hover {
         transform: translateY(-3px);
         box-shadow: 0 8px 20px rgba(139, 105, 20, 0.5);
-        border-color: rgba(255,255,255,0.4);
+        border-color: rgba(255, 255, 255, 0.4);
     }
 
     /* Formulário estilo ficha de biblioteca */
@@ -138,9 +134,9 @@ $conn = mysqli_connect($svname, $user, $password, $db);
         background: linear-gradient(to bottom, #ffffff 0%, #fef9f3 100%);
         border-radius: 15px;
         padding: 40px 45px;
-        box-shadow: 
+        box-shadow:
             0 15px 40px rgba(0, 0, 0, 0.3),
-            inset 0 1px 0 rgba(255,255,255,0.8);
+            inset 0 1px 0 rgba(255, 255, 255, 0.8);
         border: 3px solid #8b6914;
         border-left: 8px solid #daa520;
         position: relative;
@@ -155,14 +151,12 @@ $conn = mysqli_connect($svname, $user, $password, $db);
         left: 0;
         right: 0;
         bottom: 0;
-        background: 
-            repeating-linear-gradient(
-                180deg,
+        background:
+            repeating-linear-gradient(180deg,
                 transparent,
                 transparent 31px,
                 rgba(139, 105, 20, 0.05) 31px,
-                rgba(139, 105, 20, 0.05) 32px
-            );
+                rgba(139, 105, 20, 0.05) 32px);
         pointer-events: none;
         border-radius: 15px;
     }
@@ -198,7 +192,7 @@ $conn = mysqli_connect($svname, $user, $password, $db);
         font-size: 50px;
         color: #8b6914;
         margin-bottom: 15px;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     }
 
     .form-title h2 {
@@ -216,12 +210,12 @@ $conn = mysqli_connect($svname, $user, $password, $db);
         margin-top: 8px;
     }
 
-    form > div {
+    form>div {
         margin-bottom: 25px;
         position: relative;
     }
 
-    form > div span {
+    form>div span {
         display: block;
         color: #2c3e50;
         font-weight: bold;
@@ -233,7 +227,7 @@ $conn = mysqli_connect($svname, $user, $password, $db);
         gap: 8px;
     }
 
-    form > div span::before {
+    form>div span::before {
         content: '📌';
         font-size: 14px;
         opacity: 0.6;
@@ -252,7 +246,7 @@ $conn = mysqli_connect($svname, $user, $password, $db);
         background: linear-gradient(to bottom, #ffffff 0%, #fefdfb 100%);
         transition: all 0.3s ease;
         color: #333;
-        box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+        box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
     }
 
     input[type="text"]:focus,
@@ -261,9 +255,9 @@ $conn = mysqli_connect($svname, $user, $password, $db);
     input[type="datetime-local"]:focus {
         outline: none;
         border-color: #8b6914;
-        box-shadow: 
+        box-shadow:
             0 0 0 3px rgba(139, 105, 20, 0.1),
-            inset 0 2px 4px rgba(0,0,0,0.05);
+            inset 0 2px 4px rgba(0, 0, 0, 0.05);
         background: #fff;
         transform: translateY(-2px);
     }
@@ -302,8 +296,8 @@ $conn = mysqli_connect($svname, $user, $password, $db);
         transition: all 0.3s ease;
         margin-top: 15px;
         box-shadow: 0 6px 20px rgba(139, 105, 20, 0.3);
-        border: 2px solid rgba(255,255,255,0.2);
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -324,7 +318,7 @@ $conn = mysqli_connect($svname, $user, $password, $db);
         left: -100%;
         width: 100%;
         height: 100%;
-        background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
         transition: left 0.5s ease;
     }
 
@@ -335,7 +329,7 @@ $conn = mysqli_connect($svname, $user, $password, $db);
     button[type="submit"]:hover {
         transform: translateY(-3px);
         box-shadow: 0 10px 30px rgba(139, 105, 20, 0.5);
-        border-color: rgba(255,255,255,0.4);
+        border-color: rgba(255, 255, 255, 0.4);
     }
 
     button[type="submit"]:active {
@@ -353,7 +347,7 @@ $conn = mysqli_connect($svname, $user, $password, $db);
         align-items: center;
         gap: 12px;
         font-family: 'Segoe UI', sans-serif;
-        box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
     }
 
     .info-note i {
@@ -446,9 +440,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     dataNascimento,
     endereco,
     telefone,
-    dataCadastro
+    dataCadastro,
+    statusP
     ) VALUES
-    ('$nome', '$nascimento', '$endereco', '$telefone', '$cadastro')";
+    ('$nome', '$nascimento', '$endereco', '$telefone', '$cadastro', 'Ativa')";
 
     mysqli_query($conn, $sql);
     mysqli_close($conn);
